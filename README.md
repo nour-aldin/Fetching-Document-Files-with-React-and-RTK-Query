@@ -7,15 +7,15 @@ This project demonstrates how to efficiently fetch and display document files (s
 - [Setup](#setup)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [How It Works](#how-it-works)
 
 ## Setup
 
 1. Clone this repository:
 
 ```bash
- git clone https://github.com/nour-aldin/Fetching-Document-Files-with-React-and-RTK-Query--A-Practical-Guide.git
- cd Fetching-Document-Files-with-React-and-RTK-Query--A-Practical-Guide
+ git clone https://github.com/nour-aldin/Fetching-Document-Files-with-React-and-RTK-Query.git
+
+ cd Fetching-Document-Files-with-React-and-RTK-Query
 ```
 
 2. Install dependencies:
@@ -29,3 +29,16 @@ This project demonstrates how to efficiently fetch and display document files (s
 ```bash
   pnpm run dev
 ```
+
+## Usage
+
+This example fetches an image using Redux and RTK Query. To fetch an image and render it:
+
+- The API slice (imageApi) is set up to fetch images from DummyJSON.
+- The app fetches an image and handles loading and error states using RTK Query hooks.
+
+## Technologies Used
+
+- **React:** A JavaScript library for building user interfaces.
+- **Redux Toolkit (RTK Query):** A state management tool that helps manage API requests efficiently.
+- **DummyJSON:** Used as a mock API to fetch the image.
