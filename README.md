@@ -1,6 +1,6 @@
 # Fetching Document Files with React and RTK Query
 
-This project demonstrates how to efficiently fetch and display document files (such as images and PDFs) using React and RTK Query. We use DummyJSON as a data source in a practical example of fetching an image and rendering it in the browser.
+This project demonstrates how to efficiently fetch and display document files (such as images,PDFs,...etc) using React and RTK Query. We use DummyJSON as a data source in a practical example of fetching an image and rendering it in the browser.
 
 ## Table of Contents
 
